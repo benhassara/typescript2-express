@@ -11,6 +11,8 @@
   "author": "Ben Hassara <bhassara@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.2",
     "typescript": "^2.0.3"
   }
 }
