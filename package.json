@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "buildTest": "tsc src/test.ts",
-    "test": "mocha --reporter spec --compilers ts:ts-node/register --require ./test/helper.test.ts test/**/*.test.ts"
+    "test": "mocha --reporter spec --compilers ts:ts-node/register test/**/*.test.ts"
   },
   "keywords": [],
   "author": "Ben Hassara <bhassara@gmail.com>",
