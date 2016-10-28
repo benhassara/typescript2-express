@@ -24,8 +24,6 @@ export class HeroRouter {
    */
   public getOne(req: Request, res: Response, next: NextFunction) {
     let query = parseInt(req.params.id);
-    console.log(query);
-    
     let hero = Heroes.find(hero => hero.id === query);
     
     if (hero) {
